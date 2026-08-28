@@ -106,7 +106,7 @@ class NuBoard:
         )
         server.start()
 
-        io_loop.add_callback(server.show, "/")
+        # io_loop.add_callback(server.show, "/")
         # Catch RuntimeError in jupyter notebook
         try:
             io_loop.start()
